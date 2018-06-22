@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Peso">
+        <item>Menos de 100gr</item>
+        <item>Entre 100gr y 500gr</item>
+        <item>Entre 500gr y 1kg</item>
+        <item>Mas de 1kg</item>
+    </string-array>
+</resources>
