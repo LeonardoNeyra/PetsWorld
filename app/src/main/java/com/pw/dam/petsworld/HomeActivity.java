@@ -27,8 +27,8 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        MainNav = (BottomNavigationView) findViewById(R.id.main_nav);
-        MainFrame = (FrameLayout) findViewById(R.id.main_frame);
+        MainNav = findViewById(R.id.main_nav);
+        MainFrame = findViewById(R.id.main_frame);
         homeFragment = new HomeFragment();
         addFragment = new AddFragment();
         listFragment = new ListFragment();
